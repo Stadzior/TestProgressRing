@@ -17,7 +17,6 @@ namespace TestProgressRing
             get => _isLoading;
             set
             {
-                _isLoading = value;
                 Set(() => IsLoading, ref _isLoading, value);
             }
         }

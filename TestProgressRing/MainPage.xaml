@@ -43,7 +43,7 @@
             Margin="0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            IsActive="{Binding IsLoading, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+            IsActive="{Binding IsLoading}"
             Visibility="Visible" />
     </Grid>
 </Page>
